@@ -19,6 +19,7 @@ const Navbar = () => {
             <div className='hidden md:flex '>
                 <ul className='flex text-black items-center'>
                 <li className = "cursor-pointer hover:text-green-400 hover:animate-pulse "><Link to="hero" spy={true} smooth={true} offset={50} duration={600}>Home</Link></li>
+                <li className = "cursor-pointer hover:text-green-400 hover:animate-pulse "><Link to="campustour" spy={true} smooth={true} offset={50} duration={600}>Campus Tour</Link></li>
                 <li className = "cursor-pointer hover:text-green-400 hover:animate-pulse "><Link to="schools" spy={true} smooth={true} offset={50} duration={600}>Schools</Link></li>
                     <li className = "cursor-pointer hover:text-green-400 hover:animate-pulse "><Link to="about" spy={true} smooth={true} offset={50} duration={600}>About</Link></li>
                     <li className = "cursor-pointer hover:text-green-400 hover:animate-pulse "><Link to="community" spy={true} smooth={true} offset={50} duration={700}>Campus Life</Link></li>
@@ -36,6 +37,7 @@ const Navbar = () => {
             <div className = {nav ? "w-full bg-white text-green-500 absolute top-[90px] left-0 flex justify-center text-center" : 'absolute left-[-100%]'}>
                 <ul>
                 <li className = "text-2xl cursor-pointer "><Link to="hero" spy={true} smooth={true} offset={50} duration={600} onClick={handleNav}>Home</Link></li>
+                <li className = "text-2xl cursor-pointer "><Link to="campustour" spy={true} smooth={true} offset={50} duration={600} onClick={handleNav}>Campus Tour</Link></li>
                     <li className = "text-2xl cursor-pointer "><Link to="schools" spy={true} smooth={true} offset={50} duration={600} onClick={handleNav}>Schools</Link></li>
                     <li className = "text-2xl cursor-pointer "><Link to="about" spy={true} smooth={true} offset={50} duration={600} onClick={handleNav}>About</Link></li>
                     <li className = "text-2xl cursor-pointer " ><Link to="community" spy={true} smooth={true} offset={50} duration={700} onClick={handleNav}> Campus Life</Link></li>
