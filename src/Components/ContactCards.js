@@ -4,7 +4,7 @@ const ContactCards = (props) => {
   return (
     <div>
         <div>
-         <div className="flex-auto border rounded-2xl py-10 m-5 shadow-lg shadow-green-500" >
+         <div className="flex-auto border rounded-2xl py-10 m-5 shadow-lg shadow-green-500 hover:shadow-2xl hover:shadow-emerald-600 duration-500" >
             <div>
               <div className="p-6 mr-3 rounded-full">
                 {props.icon}
