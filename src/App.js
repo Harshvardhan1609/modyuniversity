@@ -4,6 +4,7 @@ import Updates from "./Components/Updates";
 import Campuslife from "./Components/Campuslife";
 import Contact from "./Components/Contact";
 import Footers from "./Components/Footer";
+import Schools from "./Components/Schools";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
+      <Schools/>
       <Updates/>
       <Campuslife/>
       <Contact/>
