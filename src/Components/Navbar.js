@@ -10,9 +10,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className='w-full h-[65px] bg-white rounded-3xl shadow-lg shadow-emerald-100'>
+    <div className='w-full h-[65px] bg-white shadow-lg rounded-3xl shadow-emerald-100 sticky top-0'>
         <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
-            <div><h1 className=' sm:text-center text-3xl font-extrabold py-4 bg-clip-text bg-gradient-to-r text-transparent 
+            <div><h1 className=' text-3xl font-extrabold py-4 bg-clip-text bg-gradient-to-r text-transparent 
             from-green-500 via-green-300 to-yellow-300
             animate-text drop-shadow-lg shadow-green-300'>
                 MODY UNIVERSITY</h1></div>

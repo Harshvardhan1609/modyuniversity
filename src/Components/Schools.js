@@ -7,9 +7,9 @@ import innovate1 from '../Assets/s4.jpg'
 import innovate2 from '../Assets/s5.jpg'
 import innovate3 from '../Assets/s6.jpg'
 
-const Schools = () => {
+const Schools = () => { 
   return (
-    <div className="mx-auto px-4 py-16 bg-white text-green-500 text-center flex flex-col  " id="schools">
+    <div className=" mx-auto px-4 py-16  bg-white text-green-500 text-center flex flex-col" id="schools">
     <div>
    <h1 className="py-4">Schools at Mody University</h1>
    <p className="py-4 mx-5 text-[15px]">
