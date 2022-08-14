@@ -21,6 +21,9 @@ const Hero = () => {
             >
               <button className="m-2">book a Counciling Session</button>
             </a>
+            <a href="https://drive.google.com/file/d/1lqEDQ1sYN4oaMBaVc3TjThnaj6oqi7_B/view?usp=sharing" target="_blank"rel="noreferrer">
+              <button className="m-2">Information Booklet</button>
+            </a>
           </div>
         </div>
       </div>
