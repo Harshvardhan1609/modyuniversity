@@ -14,10 +14,10 @@ const ContactCards = (props) => {
                 {props.text}
               </h2>
               <div className='p-3'>
-                <a href={props.link3}  target="_blank" rel="noreferrer"><button className="text-white mx-3">
+                <a href={props.link3}  target="_blank" rel="noreferrer"><button className="text-white mx-3 my-2">
                 {props.contactlink}
               </button></a>
-              <a href={props.link4} target="_blank" rel="noreferrer"><button className="text-white mx-3">
+              <a href={props.link4} target="_blank" rel="noreferrer"><button className="text-white mx-3 my-2">
               {props.contactlink2}
             </button></a>
               </div>
